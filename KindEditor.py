@@ -8,10 +8,11 @@ sys.setdefaultencoding("utf-8")
 import os
 
 from LocalServer import runServer
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
-from PyQt4.QtWebKit import *
-from PyQt4.QtNetwork import *
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtWebKit import *
+from PyQt5.QtNetwork import *
 from datetime import datetime
 
 

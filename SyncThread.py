@@ -5,7 +5,7 @@
 
 from config import APP_PATH, BASE_URL
 from multiprocessing import Process
-from PyQt4.QtCore import QObject
+from PyQt5.QtCore import *
 from DBManager import User, Note, Notebook
 import os
 import re

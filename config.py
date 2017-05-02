@@ -37,6 +37,10 @@ def saveConf(conf):
 
 #测试
 if __name__ == "__main__":
+    print APP_NAME
+    print APP_PATH
+    print CONFIG_FILE
+    print CONFIG_PATH
     conf = getConf()
     print conf.get("oauth", "oauth_consumer_token")
     print conf.get("oauth", "oauth_consumer_secret")
